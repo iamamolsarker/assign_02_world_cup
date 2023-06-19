@@ -85,6 +85,7 @@ i {
 
 .match-blog {
   display: flex;
+  margin-top: 100px;
 }
 
 /* side nav styles */
@@ -95,7 +96,7 @@ i {
   width: 300px;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 25px;
   align-self: flex-start;
 }
 
@@ -106,6 +107,7 @@ i {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
+  margin-left: 25px;
 }
 .blog-img {
   width: 100%;

@@ -241,6 +241,8 @@ Responsiveness
   } 
   .view-container{
     display: block;
+    margin-top: 30px;
+    text-align: center;
   }
   .side-nav{
     background-color: transparent;
@@ -259,11 +261,23 @@ Responsiveness
   .side-nav >div:nth-child(2){
     margin: 0 30px;
   }
+  .side-nav > div a{
+    font-size: 16px;
+  }
   .blog-container{
     margin-left: 0;
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .blog-container article:last-child{
+    display: none;
+  }
+  /* footer */
+  footer{
+    padding: 80px 15px;
+  }
+  footer>ul>li:not(:last-child) {
+    margin-right: 15px;
+}
 }
 
 /* Mobile version */

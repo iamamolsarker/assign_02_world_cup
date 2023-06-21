@@ -283,6 +283,75 @@ Responsiveness
 /* Mobile version */
 @media screen and (min-width:320px) and (max-width:767px){
   .container{
-    background-color: red;
+    width: 95%;
   }
+  .main-title{
+    font-size: 32px;
+    text-align: center;
+  }
+  .banner-text{
+    font-size: 18px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .banner-container{
+    padding: 40px 20px;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  .banner-content{
+    text-align: center;
+  }
+  .watch-btn{
+    font-size: 16px;
+
+  }
+  .banner-img{
+    margin-top: 20px;
+  }
+  /* blogs style */
+  .match-blog{
+    flex-direction: column;
+    margin: 40px  0;
+  }
+  .side-nav{
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 20px;
+    position: static;
+
+  }
+  .side-nav > div{
+    flex-grow: 1;
+    margin: 0;
+    border: 1px solid #E8E8E8;
+  }
+  .side-nav >div:nth-child(2){
+    margin: 0 10px;
+  }
+  .side-nav > div a{
+    font-size: 16px;
+  }
+  .blog-container{
+    margin-left: 0;
+    grid-template-columns: 1fr;
+  }
+  /* footer */
+  footer{
+    padding: 60px 15px;
+  }
+  footer ul{
+    flex-wrap: wrap;
+  }
+  footer>ul>li:not(:last-child) {
+    margin: 0 15px 10px 0;
+
+}
+  
 }

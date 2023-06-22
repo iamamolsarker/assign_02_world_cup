@@ -114,8 +114,10 @@ i {
   border-radius: 10px;
   text-align: center;
 }
-#active-btn{
+.side-nav >div:last-child{
   margin: 0;
+}
+#active-btn{
   background-color: #9575de;
 }
 #active-btn a{
@@ -212,6 +214,7 @@ footer>ul>li:hover a{
 .social-container i:hover{
   color: #9575de;
 }
+
 
 /*************** 
 Responsiveness

@@ -271,7 +271,7 @@ Responsiveness
     margin-left: 0;
     grid-template-columns: repeat(2, 1fr);
   }
-  .blog-container article:last-child{
+  .blog-container:not(.match-container) article:last-child{
     display: none;
   }
   /* footer */
